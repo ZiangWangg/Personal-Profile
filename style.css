@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: cursive;
+}
+body{
+  background-color: rgb(206, 255, 255);
+  text-align: center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(181, 173, 255);
+  padding: 5px 1%;
+}
+.logo{
+  width:100px
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+}
+
+.nav-right ul li{
+  list-style: none;
+  display: inline-block;
+  margin:1px 15px ;
+  
+}
+.nav-right ul li img{
+  width: 20px;
+  margin:1px 15px ;
+}
+
+
