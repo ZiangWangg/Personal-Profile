@@ -4,7 +4,7 @@
   font-family: cursive;
 }
 body{
-  background-color: rgb(206, 255, 255);
+  background-color: rgb(222, 251, 255);
   text-align: center;
 }
 nav{
@@ -34,4 +34,7 @@ nav{
   margin:1px 15px ;
 }
 
+.me{
+  width: 100px;
+}
 
