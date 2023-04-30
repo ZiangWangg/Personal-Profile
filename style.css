@@ -13,6 +13,9 @@ nav{
   justify-content: space-between;
   background-color: rgb(181, 173, 255);
   padding: 5px 1%;
+  position: sticky;
+  top:0;
+  z-index: 100;
 }
 .logo{
   width:100px
@@ -38,3 +41,40 @@ nav{
   width: 100px;
 }
 
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 2%;
+}
+
+.left_sidebar{
+  
+  flex-basis: 20%;
+  position: sticky;
+  top:70px;
+  align-self: flex-start;
+  height: 100vh;
+  text-align: left;
+ 
+}
+
+.right_sidebar{
+  
+  flex-basis: 20%;
+  position: sticky;
+  top:70px;
+  align-self: flex-start;
+  height: 100vh;
+}
+
+.main{  
+  flex-basis: 55%;
+}
+
+.cSharp{
+  width: 100px;
+}
+
+.java{
+  width: 80px;
+}
