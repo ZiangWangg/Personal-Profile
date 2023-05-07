@@ -3,6 +3,10 @@
   padding:0;
   font-family:'Times New Roman', Times, serif;
 }
+
+@media (max-width: 600px){
+  
+}
 body{
   background-color: rgb(222, 251, 255);
   text-align: center;
@@ -18,7 +22,7 @@ nav{
   z-index: 100;
 }
 .logo{
-  width:100px
+  width: 120px
 }
 
 .nav-right{
@@ -35,6 +39,22 @@ nav{
 .nav-right ul li img{
   width: 20px;
   margin:1px 15px ;
+}
+
+.nav-left{
+  display: flex;
+  align-items: center;
+}
+
+.nav-left ul li{
+  list-style: none;
+  display: inline-block;
+  margin:2px 15px ;
+  
+}
+.nav-left ul li img button{
+  width: 200px;
+  margin:10px 15px ;
 }
 
 .me{
@@ -77,3 +97,37 @@ nav{
 .java{
   width: 80px;
 }
+.nav-mid{
+ font-size: 35px;
+}
+.navButton{
+  background-color: cadetblue;
+  color: white;
+  width: 400px;
+  height: 45px;
+  border: 0;
+  font-size: 20px;
+  box-sizing: content-box;
+  border-radius: 5px;
+}
+.navButton:hover{
+  background-color:darkgreen;
+  
+}
+
+
+.barButton{
+  background-color: cadetblue;
+  color: white;
+  width: 70px;
+  height: 45px;
+  border: 0;
+  font-size: 20px;
+  box-sizing: content-box;
+  border-radius: 5px;
+}
+.barButton:hover{
+  background-color:darkgreen;
+  
+}
+
