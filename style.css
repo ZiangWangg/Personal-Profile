@@ -2,20 +2,22 @@
   margin:0;
   padding:0;
   font-family:'Times New Roman', Times, serif;
+  size:30px
 }
 
 @media (max-width: 600px){
   
 }
 body{
-  background-color: rgb(222, 251, 255);
-  text-align: center;
+  background-color: rgb(240, 240, 240);
+  text-align: left;
+ 
 }
 nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(181, 173, 255);
+  background-color: rgb(67, 102, 179);
   padding: 5px 1%;
   position: sticky;
   top:0;
@@ -23,6 +25,7 @@ nav{
 }
 .logo{
   width: 120px
+  
 }
 
 .nav-right{
@@ -37,7 +40,7 @@ nav{
   
 }
 .nav-right ul li img{
-  width: 20px;
+  width: 30px;
   margin:1px 15px ;
 }
 
@@ -68,26 +71,39 @@ nav{
 }
 
 .left_sidebar{
-  flex-basis: 20%;
+  flex-basis: 7%;
   position: sticky;
   top:70px;
   align-self: flex-start;
-  height: 100vh;
-  text-align: left;
- 
+
+  text-align: center;
+  
+  
+  width: 100px;
+
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-left: 10px ;
+
 }
 
 .right_sidebar{
-  
+  text-align: center;
   flex-basis: 20%;
   position: sticky;
   top:70px;
   align-self: flex-start;
-  height: 100vh;
+  
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-left: 10px ;
 }
 
 .main{  
-  flex-basis: 55%;
+  flex-basis: 65%;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-left: 10px ;
 }
 
 .cSharp{
@@ -99,6 +115,7 @@ nav{
 }
 .nav-mid{
  font-size: 35px;
+ color: white;
 }
 .navButton{
   background-color: cadetblue;
