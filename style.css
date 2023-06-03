@@ -110,7 +110,7 @@ a{
   top:70px;
   align-self: flex-start;
 
-  text-align: center;
+ 
   
   
   width: 100px;
@@ -180,5 +180,21 @@ a{
 .barButton:hover{
   background-color:darkgreen;
   
+}
+
+.profile{
+  background-color: white;
+}
+
+.profile_info{
+  padding: 0 25px;
+}
+
+.profile_info img{
+  width: 60px;
+  border-radius: 50% ;
+  background:#ffffff ;
+  padding: 4px;
+  margin-top: -40px;
 }
 
