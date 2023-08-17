@@ -27,13 +27,15 @@ a{
   top:0;
   z-index: 100;
   box-shadow: 0 5px 10px rgb(0, 0, 0,0.1);
+
+  height: 80px;
 }
 .logo {
   width:200px;
  
   margin-right: 0px;
   display: block;
-  border-radius: 10%;
+  /* border-radius: 10%; */
 }
 
 
@@ -105,18 +107,12 @@ a{
 }
 
 .left_sidebar{
-  flex-basis: 10%;
+  flex-basis: 20%;
   position: sticky;
   top:70px;
   align-self: flex-start;
-
- 
-  
-  
   width: 100px;
-
   background: rgb(255, 255, 255);
-  border-radius: 10px;
   margin-left: 10px ;
 
 }
@@ -129,12 +125,11 @@ a{
   align-self: flex-start;
   
   background: rgb(255, 255, 255);
-  border-radius: 10px;
   margin-left: 10px ;
 }
 
 .main{  
-  flex-basis: 65%;
+  flex-basis: 50%;
   background: rgb(255, 255, 255);
   border-radius: 10px;
   margin-left: 10px ;
@@ -188,13 +183,36 @@ a{
 
 .profile_info{
   padding: 0 25px;
+  line-height:  25px;
 }
 
 .profile_info img{
-  width: 60px;
+  width: 120px;
   border-radius: 50% ;
   background:#ffffff ;
-  padding: 4px;
-  margin-top: -40px;
+  padding: 5px;
+  margin-top: -70px;
+  border-color: #5f5f5f;
+}
+
+.position ul{
+  list-style: none;
+  margin: 20px 0;
+}
+
+.position ul li{
+  margin: 5px 0;
+  font-size:16px;
+}
+.Programe-Languages dl{
+
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+
+}
+
+.Programe-Languages h3{
+  text-align: center;
 }
 
