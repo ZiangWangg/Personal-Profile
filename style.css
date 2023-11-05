@@ -5,7 +5,40 @@
   size: 30px
 }
 
-@media (max-width: 600px) {}
+@media (max-width: 1700px )and (min-width: 1265px) {
+  .nav-mid h1{
+    font-size: 20px;
+  }
+  .left_sidebar {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 1265px) {
+  .nav-left ul li a img {
+    width: 80px;
+  }
+  .nav-mid h1 {
+    display: none;
+  }
+  .nav-right ul li a span {
+    display: none;
+  }
+
+  .container {
+    padding: 15px 3%;
+    display: inline;
+  }
+  .left_sidebar {
+    flex-basis: 100%;
+    position: relative;
+    top:unset;
+  }
+  .main {
+    flex-basis: 100%;
+  }
+}
+
 
 body {
   background-color: rgb(240, 240, 240);
@@ -45,14 +78,16 @@ a {
 .nav-right ul li {
   list-style: none;
   display: inline-block;
+  
 }
 
 .nav-right ul li a {
   display: flex;
   align-items: center;
-  font-size: 14px;
-  margin: 5px 8px;
-  padding-right: 50px;
+  font-size: 12px;
+  padding-right: 20px;
+  /* margin: 5px 8px;
+  padding-right: 20px; */
 }
 
 .nav-right ul li a img {
@@ -139,16 +174,9 @@ a {
   margin-left: 10px;
 }
 
-.cSharp {
-  width: 100px;
-}
-
-.java {
-  width: 80px;
-}
 
 .nav-mid {
-  font-size: 35px;
+  font-size: 30px;
   color: rgba(82, 101, 141, 255);
 }
 
@@ -261,7 +289,7 @@ a {
 .body-text {
   background-color: rgb(232, 230, 255);
 
-  margin: 50px;
+  margin: 40px;
   text-align: center;
   padding-top: 80px;
   padding: 100px;
@@ -279,8 +307,8 @@ a {
 .body-title h3 {
   margin-top: 20px;
   margin-bottom: 40px;
-  margin-left: 100px;
-  margin-right: 200px;
+  margin-left: 80px;
+  margin-right: 160px;
   font-weight: 400;
   font-weight: 600;
   color: #333;
@@ -297,8 +325,8 @@ a {
 }
 
 .body-title img {
-  margin-left: 100px;
-  margin-right: 200px;
+  margin-left: 80px;
+  margin-right: 160px;
   width: 150px;
 }
 
