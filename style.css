@@ -287,8 +287,8 @@ a {
 }
 
 .body-text {
-  background-color: rgb(232, 230, 255);
-
+  /* background-color: rgb(232, 230, 255); */
+  background: linear-gradient(to right, rgb(190, 231, 233), #beedc7);
   margin: 40px;
   text-align: center;
   padding-top: 80px;
@@ -306,14 +306,24 @@ a {
 
 .body-title h3 {
   margin-top: 20px;
-  margin-bottom: 40px;
   margin-left: 80px;
   margin-right: 160px;
-  font-weight: 400;
   font-weight: 600;
   color: #333;
   font-size: 22px;
   
+}
+.body-title p {
+  margin-bottom: 40px;
+  margin-left: 80px;
+  margin-right: 160px;
+  color: #000000;
+  font-size: 22px;
+  
+}
+
+.body-title b {
+  color: #004c99;
 }
 
 
