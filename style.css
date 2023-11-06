@@ -5,7 +5,7 @@
   size: 30px
 }
 
-@media (max-width: 1981px )and (min-width: 1265px) {
+@media (max-width: 1900px )and (min-width: 1265px) {
   .nav-mid h1{
     font-size: 20px;
   }
@@ -20,20 +20,24 @@
   }
 
   .body-title h3 {
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-right: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right:  1px;
     font-weight: 600;
     color: #333;
     font-size: 30px;
+   
     
   }
   .body-title p {
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-right: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 1px;
     color: #000000;
-    font-size: 26px;
+    font-size: 12px;
+  }
+  .body-title img {
+    width: 20px;
   }
 
   .body-text {
@@ -50,6 +54,16 @@
     justify-content: space-between;
     
   }
+
+  .welcome li {
+    list-style: none;
+    text-align: left  ;
+    color: #555;
+    margin-left: 100px;
+    font-size: 2000px;
+    line-height: 150%;
+  }
+
   .body-text2 {
     /* background-color: rgb(232, 230, 255); */
     background: linear-gradient(to right, #e0c3fc, #8ec5fc);
