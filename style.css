@@ -468,8 +468,7 @@ a {
 
 .body-title h3 {
   margin-top: 20px;
-  margin-left: 80px;
-  margin-right: 160px;
+  margin-right: 80px;
   font-weight: 600;
   color: #333;
   font-size: 30px;
@@ -477,11 +476,13 @@ a {
 }
 .body-title p {
   margin-bottom: 40px;
-  margin-left: 80px;
-  margin-right: 160px;
+  margin-right: 80px;
   color: #000000;
   font-size: 26px;
   
+}
+.body-title img {
+  margin-left: 10px;
 }
 
 .body-title b {
@@ -508,7 +509,7 @@ a {
   list-style: none;
   text-align: left  ;
   color: #555;
-  margin-left: 100px;
+  margin-left: 50px;
   font-size: 24px;
   line-height: 150%;
 }
