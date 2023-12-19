@@ -523,3 +523,54 @@ a {
 .welcome5 h3 {
   margin-top: 50px;
 }
+
+.project-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+/* Style individual project cards */
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 15px;
+  width: calc(25% - 30px); /* 25% width with 15px margin on each side */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.project-card p {
+  color: #555; /* Adjusted color for better contrast */
+  font-size: 1em;
+  line-height: 1.4; /* Improved line height for better readability */
+  margin: 10px 0;
+}
+
+.project-card a {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.project-card a:hover {
+  background-color: #555;
+}
